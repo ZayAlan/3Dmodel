@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <SurfaceView
+        android:id="@+id/mSurfaceView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_marginEnd="60dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/camera_back"
+            android:src="@mipmap/camera_back"
+            android:scaleType="centerInside"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:layout_width="28dp"
+            android:layout_height="28dp" />
+
+        <ImageButton
+            android:layout_gravity="center_vertical|center"
+            android:id="@+id/take_picture"
+            android:layout_width="wrap_content"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/take_pic"/>
+
+        <ImageButton
+            android:layout_marginStart="60dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/camera_sure"
+            android:src="@mipmap/camera_sure"
+            android:scaleType="centerInside"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:layout_width="28dp"
+            android:layout_height="28dp" />
+    </LinearLayout>
+
+</RelativeLayout>

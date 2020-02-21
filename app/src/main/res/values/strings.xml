@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AiModel</string>
+
+    <string name="menu_bottom_make_model">建模</string>
+    <string name="menu_bottom_model_library">模型库</string>
+
+</resources>

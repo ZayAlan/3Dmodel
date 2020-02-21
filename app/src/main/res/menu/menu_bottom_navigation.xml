@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/make_model"
+        android:icon="@mipmap/make_model"
+        android:title="@string/menu_bottom_make_model"
+        />
+    <item
+        android:id="@+id/model_library"
+        android:icon="@mipmap/model_library"
+        android:title="@string/menu_bottom_model_library"
+        />
+
+</menu>
